@@ -1,38 +1,18 @@
-# RESTAPIDocs Examples
+# Develop with <service name>
 
-These examples were taken from projects mainly using [Django Rest
-Framework](https://github.com/tomchristie/django-rest-framework) and so the
-JSON responses are often similar to the way in which DRF makes responses.
+Develop custom software that can:
+* <verb noun>: <short description>
+* <verb noun>: <short description>
+* <verb noun>: <short description>
 
-Where full URLs are provided in responses they will be rendered as if service
-is running on 'http://testserver/'.
+The <service name> API is simple, secure, and reliable.
 
-## Open Endpoints
+Start by signing up for a [developer account](https://example.com/developer).
 
-Open endpoints require no Authentication.
+More resources:
+* You can ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/<api-name>).
+* Join our [Slack Channel](<a link to a form>)
 
-* [Login](login.md) : `POST /api/login/`
 
-## Endpoints that require Authentication
-
-Closed endpoints require a valid Token to be included in the header of the
-request. A Token can be acquired from the Login view above.
-
-### Current User related
-
-Each endpoint manipulates or displays information related to the User whose
-Token is provided with the request:
-
-* [Show info](user/get.md) : `GET /api/user/`
-* [Update info](user/put.md) : `PUT /api/user/`
-
-### Account related
-
-Endpoints for viewing and manipulating the Accounts that the Authenticated User
-has permissions to access.
-
-* [Show Accessible Accounts](accounts/get.md) : `GET /api/accounts/`
-* [Create Account](accounts/post.md) : `POST /api/accounts/`
-* [Show An Account](accounts/pk/get.md) : `GET /api/accounts/:pk/`
-* [Update An Account](accounts/pk/put.md) : `PUT /api/accounts/:pk/`
-* [Delete An Account](accounts/pk/delete.md) : `DELETE /api/accounts/:pk/`
+//Commentary: 
+"service name" is the name of your product or service.
